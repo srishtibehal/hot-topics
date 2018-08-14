@@ -1,0 +1,87 @@
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav a {
+    background-color: #333;
+    display: inline-flex;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    background-color: #111;
+}
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    margin: 10px;
+}
+
+figure {
+    float: left;
+}
+
+i {
+    padding: 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+@media only screen and (max-width: 35rem) {
+    article p {
+        line-height: 1.4;
+        font-size: 0.75rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        max-width: 80%;
+        padding: 0 4px;
+    }
+
+}
+
+
+@media only screen and (min-width: 35rem) and (max-width: 80rem) {
+    article p {
+        font-size: 1rem;
+    }
+    figure {
+        max-width: 38%;
+        padding: 0 4px;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+
+    article p {
+        font-size: 1.25rem;
+    }
+    
+    figure {
+        flex: 49%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+}
